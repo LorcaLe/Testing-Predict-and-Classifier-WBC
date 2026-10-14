@@ -1,0 +1,31 @@
+{
+  "detector_real_image_smoke_test": {
+    "passed": true,
+    "detections": 15,
+    "wbc_count": 1,
+    "box_bounds_checked": true
+  },
+  "synthetic_detector_and_classifier_cli": "passed",
+  "split_unit_tests": {
+    "passed": 8
+  },
+  "checkpoint_sha256": "verified against packaged metadata",
+  "fresh_environment_install": "not tested",
+  "onnx_export_and_dotnet_parity": "not tested",
+  "classifier_training_preprocessing_parity": "not verified",
+  "wbc_crop_smoke_test": {
+    "passed": true,
+    "real_image_crop_count": 1,
+    "crop_dimensions_checked": true,
+    "only_wbc_checked": true,
+    "empty_detection_checked": true,
+    "annotated_image_saved": true
+  },
+  "bundled_real_samples_demo": {
+    "images": 6,
+    "passed": true,
+    "wbc_crops_saved": 6,
+    "source_split": "val",
+    "image_checksums_verified": true
+  }
+}

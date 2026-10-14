@@ -1,0 +1,38 @@
+{
+  "status": "cnmc_exact_duplicate_clean_v1_pending_near_duplicate_review_and_training_environment",
+  "seed": 42,
+  "detector": {
+    "architecture": "YOLOv8n",
+    "dataset": "Data/TXL-PBC_Dataset/TXL-PBC",
+    "classes": ["WBC", "RBC", "Platelets"],
+    "epochs": 50,
+    "image_size": 640,
+    "batch_size": 8
+  },
+  "classifier": {
+    "architecture": "EfficientNet-B0",
+    "dataset": "C-NMC",
+    "train_folds": ["fold_0", "fold_1"],
+    "validation_fold": "fold_2",
+    "test": "test_preliminary",
+    "split_policy": "cnmc_v1_subject_conservative",
+    "train_manifest": "outputs/splits/cnmc_v1/train.csv",
+    "validation_manifest": "outputs/splits/cnmc_v1/validation.csv",
+    "test_manifest": "outputs/splits/cnmc_v1/test_preliminary.csv",
+    "split_checksums": "outputs/splits/cnmc_v1/checksums.json",
+    "manifest_overrides_original_fold_membership": true,
+    "label_map": {"hem": 0, "all": 1},
+    "epochs": 20,
+    "image_size": 224,
+    "batch_size": 32,
+    "metrics": ["sensitivity", "specificity", "macro_f1", "pr_auc"]
+  },
+  "external_test": ["ALL_IDB1", "ALL_IDB2"],
+  "constraints": [
+    "Use cleaned manifests, not whole original C-NMC fold directories.",
+    "Review near-duplicates before claiming fully independent partitions.",
+    "Select thresholds on validation only.",
+    "Final C-NMC test has no assumed public labels.",
+    "Do not move or rewrite original dataset files."
+  ]
+}

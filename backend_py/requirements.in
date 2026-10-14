@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+python-multipart
+psycopg[binary]
+pika
+boto3
+itsdangerous
+PyMuPDF
+pydantic
+httpx
+pytest

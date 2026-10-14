@@ -1,0 +1,74 @@
+{
+  "detector": {
+    "file": "detector_best.pt",
+    "source_archive": "txl_pbc_t4_local-20261014T164330Z-1-001.zip",
+    "source_entry": "txl_pbc_t4_local/weights/best.pt",
+    "sha256": "56863eb57f6b5272cfe1e08c31c00f911aa8e407e7ff5f96fc9d76339e982835",
+    "bytes": 6247530,
+    "recorded_epochs": 20,
+    "last_epoch_metrics": {
+      "epoch": "20",
+      "time": "324.253",
+      "train/box_loss": "0.47615",
+      "train/cls_loss": "0.33915",
+      "train/dfl_loss": "0.93368",
+      "metrics/precision(B)": "0.97461",
+      "metrics/recall(B)": "0.94218",
+      "metrics/mAP50(B)": "0.98541",
+      "metrics/mAP50-95(B)": "0.84956",
+      "val/box_loss": "0.45776",
+      "val/cls_loss": "0.32405",
+      "val/dfl_loss": "0.91735",
+      "lr/pg0": "8.50255e-05",
+      "lr/pg1": "8.50255e-05",
+      "lr/pg2": "8.50255e-05"
+    },
+    "classes": {
+      "0": "WBC",
+      "1": "RBC",
+      "2": "Platelet"
+    },
+    "training_ultralytics_version": "8.4.157"
+  },
+  "classifier": {
+    "file": "classifier_best.pt",
+    "source_archive": "cnmc_head_epochs_2_to_5_20260921_180809_749238-20261014T164336Z-1-001.zip",
+    "source_entry": "cnmc_head_epochs_2_to_5_20260921_180809_749238/best.pt",
+    "sha256": "f18f3a0bdc1b933469dbccc02b82b4b5aadf4f4ddc2ce0836ddca4a4b9aa9612",
+    "bytes": 16327367,
+    "metadata": {
+      "epoch": 5,
+      "architecture": "efficientnet_b0",
+      "label_map": {
+        "hem": 0,
+        "all": 1
+      },
+      "threshold": 0.5,
+      "preprocessing": {
+        "image_size": 224,
+        "resize": "preserve_aspect_ratio",
+        "padding": "black",
+        "mean": [
+          0.485,
+          0.456,
+          0.406
+        ],
+        "std": [
+          0.229,
+          0.224,
+          0.225
+        ]
+      },
+      "evaluation": {
+        "val_loss": 0.5405940880165294,
+        "sensitivity": 0.9312169312169312,
+        "specificity": 0.4427131072410632,
+        "tp": 2288,
+        "fn": 169,
+        "fp": 608,
+        "tn": 483
+      }
+    }
+  },
+  "source_folder": "https://drive.google.com/drive/folders/183-LXCxUIvoDcySLayV_5jPrnHkxiVwT"
+}

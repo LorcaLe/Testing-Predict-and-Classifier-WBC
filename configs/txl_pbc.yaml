@@ -1,0 +1,9 @@
+path: Data/TXL-PBC_Dataset/TXL-PBC
+
+train: images/train
+val: images/val
+
+names:
+  0: WBC
+  1: RBC
+  2: Platelet

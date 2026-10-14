@@ -1,0 +1,104 @@
+[
+  {
+    "sample": "sample_01",
+    "image": "images/sample_01.png",
+    "label": "labels/sample_01.txt",
+    "original_image": "images/val/000b241dc6d658eda115df7472e2b812.png",
+    "original_label": "labels/val/000b241dc6d658eda115df7472e2b812.txt",
+    "source_split": "val",
+    "width": 575,
+    "height": 575,
+    "image_sha256": "3ed96ab1d2d9beff810e81d3ad028cbd867df050bb6ce4a524ed95250f1cb77c",
+    "label_sha256": "159b2e9e39ab2ea10431f857464457a5a7f5eb98d0fd75d53657c31d3a51fc91",
+    "ground_truth_counts": {
+      "WBC": 1,
+      "RBC": 9,
+      "Platelet": 0
+    }
+  },
+  {
+    "sample": "sample_02",
+    "image": "images/sample_02.png",
+    "label": "labels/sample_02.txt",
+    "original_image": "images/val/2ad8c01cd2a75925ad49131f311a09e7.png",
+    "original_label": "labels/val/2ad8c01cd2a75925ad49131f311a09e7.txt",
+    "source_split": "val",
+    "width": 575,
+    "height": 575,
+    "image_sha256": "2eb3452913b6526563622c7def14f1a59165c90d8afe839b7369ce00436ff0eb",
+    "label_sha256": "8b165a57a3fb31b1f953024808ae977964787de8c55206a512eba3fac6049ec9",
+    "ground_truth_counts": {
+      "WBC": 1,
+      "RBC": 8,
+      "Platelet": 0
+    }
+  },
+  {
+    "sample": "sample_03",
+    "image": "images/sample_03.png",
+    "label": "labels/sample_03.txt",
+    "original_image": "images/val/59e28d798e7655ac88d17cd733a2d5f1.png",
+    "original_label": "labels/val/59e28d798e7655ac88d17cd733a2d5f1.txt",
+    "source_split": "val",
+    "width": 360,
+    "height": 363,
+    "image_sha256": "b9a96412af03931cb43a89f48cbaa498e024b1e1922acca12082b3b3384a1128",
+    "label_sha256": "47a14248e26f965c2f85a0d25946d055e00476bcca62abf4052ad05b4672fecf",
+    "ground_truth_counts": {
+      "WBC": 1,
+      "RBC": 12,
+      "Platelet": 1
+    }
+  },
+  {
+    "sample": "sample_04",
+    "image": "images/sample_04.png",
+    "label": "labels/sample_04.txt",
+    "original_image": "images/val/968eae4f05305710a64f90c4b8d0f409.png",
+    "original_label": "labels/val/968eae4f05305710a64f90c4b8d0f409.txt",
+    "source_split": "val",
+    "width": 575,
+    "height": 575,
+    "image_sha256": "258a6752b507684f54dac385ca59d95c387022c35a86359bb9b0994c7ffc98f7",
+    "label_sha256": "7bd7b77217fc8afffbd900007bc4e088de3469ed9fe667c3fabfbadb52a70e81",
+    "ground_truth_counts": {
+      "WBC": 1,
+      "RBC": 7,
+      "Platelet": 1
+    }
+  },
+  {
+    "sample": "sample_05",
+    "image": "images/sample_05.png",
+    "label": "labels/sample_05.txt",
+    "original_image": "images/val/cc3ab4e1228f5dba800b215751b81410.png",
+    "original_label": "labels/val/cc3ab4e1228f5dba800b215751b81410.txt",
+    "source_split": "val",
+    "width": 575,
+    "height": 575,
+    "image_sha256": "9eb3b399e616f3b022c169a60799d4f593c9be8d7e397d28761f14d00e59d7a4",
+    "label_sha256": "4317fc5975a7f7aef53ff93d52682c3365e1ea08e5ed981152228e96e9d11b60",
+    "ground_truth_counts": {
+      "WBC": 1,
+      "RBC": 6,
+      "Platelet": 0
+    }
+  },
+  {
+    "sample": "sample_06",
+    "image": "images/sample_06.png",
+    "label": "labels/sample_06.txt",
+    "original_image": "images/val/feee8d6033d05d94a1f989cbbe7043b7.png",
+    "original_label": "labels/val/feee8d6033d05d94a1f989cbbe7043b7.txt",
+    "source_split": "val",
+    "width": 256,
+    "height": 256,
+    "image_sha256": "a84559c440acf07fcc730a93cf6675365e6aafe4fae13980d21ccb067d55e13e",
+    "label_sha256": "39a99a7941a758743797add6548d125a95a0069f0db624e7ebc5370de5f53dc1",
+    "ground_truth_counts": {
+      "WBC": 1,
+      "RBC": 16,
+      "Platelet": 0
+    }
+  }
+]

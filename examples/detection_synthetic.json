@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "task": "cell_detection",
+  "model": "detector_best.pt",
+  "model_sha256": "56863eb57f6b5272cfe1e08c31c00f911aa8e407e7ff5f96fc9d76339e982835",
+  "image": {
+    "filename": "synthetic.png",
+    "width": 320,
+    "height": 240
+  },
+  "settings": {
+    "image_size": 640,
+    "confidence": 0.25,
+    "iou": 0.7
+  },
+  "detections": [
+    {
+      "class_id": 1,
+      "label": "RBC",
+      "confidence": 0.8599361181259155,
+      "box_xyxy": [
+        92.69722747802734,
+        59.6176643371582,
+        186.89852905273438,
+        151.1239471435547
+      ]
+    }
+  ]
+}

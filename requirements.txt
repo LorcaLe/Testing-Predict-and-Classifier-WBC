@@ -1,0 +1,8 @@
+# Versions observed in the local Python 3.12 environment.
+ultralytics==8.4.157
+torch==2.14.0
+torchvision==0.29.0
+numpy==2.5.3
+Pillow==12.3.0
+PyYAML==6.0.3
+opencv-python==5.0.0.93

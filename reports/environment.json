@@ -1,0 +1,13 @@
+{
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "packages": {
+    "ultralytics": "8.4.157",
+    "torch": "2.14.0",
+    "torchvision": "0.29.0",
+    "numpy": "2.5.3",
+    "Pillow": "12.3.0",
+    "PyYAML": "6.0.3",
+    "opencv-python": "5.0.0.93"
+  },
+  "fresh_install_verified": false
+}

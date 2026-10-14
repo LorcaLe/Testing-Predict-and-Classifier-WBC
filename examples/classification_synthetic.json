@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "task": "cell_classification_research",
+  "image": "synthetic.png",
+  "model": "classifier_best.pt",
+  "score_all": 0.3105488717556,
+  "threshold": 0.5,
+  "label": "hem",
+  "preprocessing_parity_verified": false,
+  "note": "Single-logit sigmoid interpretation; original training code and interpolation parity remain unverified."
+}
